@@ -14,7 +14,7 @@ export default function App () {
      <Route path='/' element={<Home/>}></Route>
      <Route path='/about' element={<ABOUT/>}></Route>
      <Route path='/country' element={<Countries/>}></Route>
-     <Route path='/city' element={<City/>}></Route>
+     <Route path='/city/:cityName' element={<City/>}></Route>
      </Routes>
      </BrowserRouter>
       
